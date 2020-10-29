@@ -13,4 +13,4 @@ $req = $bdd->prepare('INSERT INTO commentaire (auteur, commentaire)
 VALUES(?, ?)');
 $req->execute(array($_POST['auteur'], $_POST['commentaire']));
 // Redirection du visiteur vers la page du minichat
-header('Location: 2.php');
+header('Location: 3.php');
